@@ -32,6 +32,7 @@
 #include "SFF_Toolkit.h"
 #include "util.h"
 
+static
 inline
 uint64_t
 uint64Swap(uint64_t x) {
@@ -41,6 +42,7 @@ uint64Swap(uint64_t x) {
   return(x);
 }
 
+static
 inline
 uint32_t
 uint32Swap(uint32_t x) {
@@ -49,6 +51,7 @@ uint32Swap(uint32_t x) {
   return(x);
 }
 
+static
 inline
 uint16_t
 uint16Swap(uint16_t x) {
